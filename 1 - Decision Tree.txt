@@ -39,12 +39,11 @@ random_state=0, splitter='best')
 3. Predicting the test result
 #Predicting the test set result
 y_pred= classifier.predict(x_test)
-Output:
+
 4. Test accuracy of the result (Creation of Confusion matrix)
 #Creating the Confusion matrix
 from sklearn.metrics import confusion_matrix
 cm= confusion_matrix(y_test, y_pred)
-Output:
 
 5. Visualizing the training set result:
 #Visulaizing the trianing set result
@@ -66,7 +65,6 @@ mtp.xlabel('Age')
 mtp.ylabel('Estimated Salary')
 mtp.legend()
 mtp.show()
-Output:
 
 6. Visualizing the test set result
 #Visulaizing the test set result
@@ -88,4 +86,4 @@ mtp.xlabel('Age')
 mtp.ylabel('Estimated Salary')
 mtp.legend()
 mtp.show()
-Output:
+
